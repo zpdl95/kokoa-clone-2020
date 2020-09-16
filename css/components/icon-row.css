@@ -1,0 +1,34 @@
+.icon-row {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: var(--borderline);
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.more-icon-margin {
+  margin-bottom: 40px;
+}
+
+.icon-row__icon i {
+  margin-bottom: 15px;
+}
+
+.icon-row__icon span {
+  text-align: center;
+}
+
+.icon-row__icon .badge-dot {
+  position: absolute;
+  top: -5px;
+  right: 28px;
+}

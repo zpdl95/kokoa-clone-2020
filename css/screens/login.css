@@ -1,0 +1,74 @@
+.welcome-header {
+  padding: 90px 0px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+*::selection {
+  background-color: var(--yellow);
+}
+
+.welcome-header__text {
+  color: #a7a7a7;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#login-form input {
+  padding: 15px 0px;
+  border: none;
+  font-size: 18px;
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.1s ease-in-out;
+}
+
+#login-form input::placeholder {
+  color: #a7a7a7;
+}
+
+#login-form input:focus {
+  border-color: var(--yellow);
+}
+
+#login-form input[type="submit"] {
+  cursor: pointer;
+  font-size: 18px;
+  padding: 20px 0px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 8px;
+}
+
+#login-form input[type="submit"]:hover {
+  background-color: var(--yellow);
+}
+#login-form input[type="submit"]:focus {
+  background-color: var(--yellow);
+}
+
+#login-form input:nth-child(3) {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#login-form input:nth-child(4) {
+  margin-bottom: 17px;
+}
+
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+}

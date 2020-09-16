@@ -1,0 +1,36 @@
+.setting-screen {
+  padding: 0px 30px;
+  padding-top: 120px;
+}
+
+.settings__setting {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 22px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  margin-right: 15px;
+}
+
+.settings__setting-column:last-child {
+  font-size: 20px;
+  color: var(--darkgray);
+}
+
+.settings__setting:hover i {
+  animation: rotateIcon 1s linear infinite;
+}
+
+@keyframes rotateIcon {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}

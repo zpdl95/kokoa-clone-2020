@@ -1,0 +1,5 @@
+.chats-screen {
+  padding-top: 110px;
+  padding-right: var(--horizontal-space);
+  padding-left: var(--horizontal-space);
+}
