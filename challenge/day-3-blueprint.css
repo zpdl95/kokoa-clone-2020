@@ -1,0 +1,47 @@
+body {
+  background-color: gainsboro;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.big-box {
+  width: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 170px;
+  height: 300px;
+  background-color: gray;
+  border: white 5px solid;
+  margin: 10px 10px;
+  position: relative;
+}
+
+.box-mini {
+  background-color: white;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 0px 0px 0px 10px;
+  box-sizing: border-box;
+}
+
+.box:first-child {
+  background-color: tomato;
+}
+
+.box:nth-child(2) {
+  background-color: teal;
+}
+
+.box:nth-child(3) {
+  background-color: burlywood;
+}
+
+.box:last-child {
+  background-color: thistle;
+}

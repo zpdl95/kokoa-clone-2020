@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+
+.bg-box {
+  width: 350px;
+  border: mediumturquoise 5px solid;
+  padding: 40px 30px;
+}
+
+.border {
+  border: black 2px solid;
+  border-radius: 15%;
+}
+
+.shadow {
+  box-shadow: 0px 5px black;
+}
+
+.playlist-header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.playlist-header__column {
+  width: 33%;
+}
+
+.playlist-header__column:nth-child(2) {
+  display: flex;
+  justify-content: center;
+}
+
+.screen-player__info,
+.screen-player__btn {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 30px;
+}
+
+.screen-player__photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  background-color: orange;
+  margin-right: 17px;
+}
+
+.screen-player__photo > i {
+  color: white;
+  font-size: 40px;
+}
+
+.screen-player__title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.screen-player__subtitle {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.screen-player__btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.screen-player__play {
+  border: black 2px solid;
+  border-radius: 15px;
+  width: 150px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.screen-player__play > i {
+  margin-right: 10px;
+}
+
+.round {
+  width: 60px;
+  height: 60px;
+  border: black 2px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.screen-list {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.screen-list__photo {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.screen-list__song .screen-list__photo {
+  background-color: red;
+}
+
+.screen-list__song:nth-child(2) .screen-list__photo {
+  background-color: plum;
+}
+
+.screen-list__song:nth-child(3) .screen-list__photo {
+  background-color: blue;
+}
+.screen-list__song:last-child .screen-list__photo {
+  background-color: turquoise;
+}
+
+.screen-list__song {
+  display: flex;
+  align-items: center;
+  margin: 15px 0px;
+}
+
+.screen-list__title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.screen-list__subtitle {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.5);
+}
